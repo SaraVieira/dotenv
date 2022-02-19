@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  @apply text-orange-500 font-semibold;
+}
+
+li {
+  @apply pb-1;
+}
